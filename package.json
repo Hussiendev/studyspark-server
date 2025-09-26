@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-   "type": "module",
- "scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-}
-,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hussiendev/studyspark-server.git"
@@ -31,7 +30,8 @@
     "multer": "^2.0.2",
     "openai": "^5.23.0",
     "pdf-parse": "^1.1.1",
-    "tesseract.js": "^6.0.1"
+    "tesseract.js": "^6.0.1",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
