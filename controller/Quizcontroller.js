@@ -1,10 +1,10 @@
 // controllers/flashcardController.js
-import { Flashcard } from "../db/modules/Flashcard.js";
+import { Quiz } from "../db/modules/Quiz.js";
 import { Subject } from "../db/modules/Subject.js";
 import mongoose from "mongoose";
 import logger from "../utils/logger.js";
 
-export const getRandomFlashcardsBySubjectName = async (req, res, next) => {
+export const getRandomQuizBySubjectName = async (req, res, next) => {
   try {
     const { name } = req.params;
     logger.info(name);
@@ -20,13 +20,13 @@ export const getRandomFlashcardsBySubjectName = async (req, res, next) => {
     }
     logger.info(`got the subjectc ${name}` );
     // Get 10 random flashcards for that subject
-    const flashcards = await Flashcard.aggregate([
+    const quizez = await Quiz.aggregate([
       { $match: { subjectId: new mongoose.Types.ObjectId(subject._id) } },
       { $sample: { size: 10 } }
     ]);
-    logger.info('generated the flashcrads');
+    logger.info('generated the Quizez');
 
-    res.json({ subject: name, flashcards });
+    res.json({ subject: name, quizez });
   } catch (err) {
     next(err);
   }

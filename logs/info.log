@@ -11,3 +11,9 @@
 {"level":"error","message":"res.status(...).josn is not a function","stack":"TypeError: res.status(...).josn is not a function\n    at getSubjectByName (file:///C:/StudySpark/studyspark-server/controller/Subjectcontroller.js:23:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-29 13:57:44"}
 {"level":"info","message":"found the subject","timestamp":"2025-09-29 13:58:53"}
 {"level":"info","message":"found the subject","timestamp":"2025-09-29 14:00:12"}
+{"level":"info","message":"fetched all the products","timestamp":"2025-09-30 12:05:44"}
+{"level":"info","timestamp":"2025-09-30 12:14:54"}
+{"level":"info","message":"Prospecting","timestamp":"2025-09-30 12:17:10"}
+{"level":"info","message":"Prospecting","timestamp":"2025-09-30 12:19:17"}
+{"level":"info","message":"got the subjectc Prospecting","timestamp":"2025-09-30 12:19:18"}
+{"level":"info","message":"generated the flashcrads","timestamp":"2025-09-30 12:19:18"}
