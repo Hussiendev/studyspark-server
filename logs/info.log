@@ -32,3 +32,4 @@
 {"level":"info","message":"User created successfully","timestamp":"2025-10-29 15:55:35"}
 {"level":"error","message":"user is not defined","stack":"ReferenceError: user is not defined\n    at signup (file:///C:/StudySpark/studyspark-server/controller/authcontroler.js:37:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-29 15:55:35"}
 {"level":"info","message":"User created successfully","timestamp":"2025-10-29 15:56:25"}
+{"level":"info","message":"User created successfully","timestamp":"2025-11-01 15:25:58"}
