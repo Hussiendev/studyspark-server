@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "seed":"node cour/cour.js"
+    "seed": "node cour/cour.js"
   },
   "repository": {
     "type": "git",
@@ -21,16 +21,19 @@
   },
   "homepage": "https://github.com/Hussiendev/studyspark-server#readme",
   "dependencies": {
+    "@prisma/client": "^6.18.0",
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.18.2",
+    "mailtrap": "^4.3.0",
     "multer": "^2.0.2",
+    "nodemailer": "^6.9.11",
     "openai": "^5.23.0",
     "pdf-parse": "^1.1.1",
+    "prisma": "^6.18.0",
     "tesseract.js": "^6.0.1",
     "winston": "^3.17.0"
   },
